@@ -309,24 +309,19 @@ ul {
  /* Portfolio-main start */
  
 .project-file {
-    
-    text-align: center;
-    padding: 1rem;
-    font-size: 0.9em;
-}
-
-.project-file-img {
     display: flex;
     flex-direction: column;
-    position: relative;
-    padding-top: 1rem;
+    align-items: center;
+    padding: 1rem;
+    
 }
 
-.project-file h2 {
+.project-file-1 {
     font-size: 1.2em;
 }
 
 .download {
+    padding-top: 1rem;
     font-size: 20px;
     color: aquamarine;
 }
