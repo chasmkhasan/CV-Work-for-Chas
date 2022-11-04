@@ -265,6 +265,7 @@ ul {
 /* Resume-main start */
 .details-cv {
     text-align: center;
+    margin: auto;
     padding: 1rem;
     font-size: 0.9em;
 
@@ -290,12 +291,17 @@ ul {
     border-radius: 100%;
 }
 
-.my-self {
+.work-1 {
     text-align: left;
 }
 
 .my-self-1 {
     text-align: justify;
+}
+
+.work-2 {
+    padding-left: 1rem;
+    text-align: left;
 }
 
 /* Resume-main end */
