@@ -21,7 +21,7 @@ body {
     grid-template-rows: 8em auto 8 em;
     grid-template-areas: 
     "top top top top top top"
-    "sidebar sidebar main main main main"
+    "main main main main main main"
     "footer footer footer footer footer footer";
     min-height: 100vh;
 }
@@ -109,7 +109,7 @@ ul {
  }
 
  main{
-    background: darkslateblue;
+    background: whitesmoke;
     color: black;
     grid-area: main;
     font-size: 1.5em;
@@ -117,12 +117,12 @@ ul {
     /* min-height: 60vh; */
  }
 
- aside {
+/*  aside {
     background: darkolivegreen;
     color: whitesmoke;
     grid-area: sidebar;
     font-size: 1.5em;
- }
+ } */
 
  footer {
     display: flex;
@@ -158,6 +158,11 @@ ul {
     position: relative;
     padding-top: 1rem;
 }
+.slide-pic {
+    height: 500px;
+    width: 100%;
+}
+
 /*About me end*/
 
 /*About-me-main start*/ /* Slide show */
