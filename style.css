@@ -268,7 +268,11 @@ ul {
 /* Resume-aside end */
 
 /* Resume-main start */
+.heading {
+    color: red;
+}
 .details-cv {
+    background-color:#717171;
     text-align: center;
     margin: auto;
     padding: 1rem;
