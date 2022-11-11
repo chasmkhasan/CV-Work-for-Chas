@@ -139,43 +139,67 @@
                 }
               </script>
             </div>
-            
-          <h2 class="work-1">Skills</h2>
-          <div>
-            <script>
-              let skillLen = resumeList[0].skills.length;
+            <div>
+              <h2 class="work-1">Skills</h2>
+                <div>
+                  <script>
+                    let skillLen = resumeList[0].skills.length;
 
-              let j;
-              for (j = 0; j < skillLen; j++) {
-                document.write(
-                  "<ul class='work-2'><li>" +
-                    resumeList[0].skills[j].skillName +
+                    let j;
+                    for (j = 0; j < skillLen; j++) {
+                    document.write(
+                    "<ul class='work-2'><li>" +
+                      resumeList[0].skills[j].skillName +
                     "</li></ul>"
-                );
-              }
-            </script>
-          </div>
-          <h2 class="work-1">Awards</h2>
-          <div>
-            <script>
-              let awardsLen = resumeList[0].awards.length;
+                    );
+                    }
+                  </script>
+                </div>
+            </div>
+            <div>
+              <h2 class="work-1">Awards</h2>
+                <div>
+                  <script>
+                    let awardsLen = resumeList[0].awards.length;
 
-              let k;
-              for (k = 0; k < awardsLen; k++) {
-                document.write(
-                  "<ul class='work-2'><li>" +
-                    resumeList[0].awards[k].title +
-                    " , " +
-                    resumeList[0].awards[k].date +
-                    " , " +
-                    resumeList[0].awards[k].awarder +
-                    " , " +
-                    resumeList[0].awards[k].summary +
-                    "</li></ul>"
-                );
-              }
-            </script>
-          </div>
+                    let k;
+                    for (k = 0; k < awardsLen; k++) {
+                    document.write(
+                      "<ul class='work-2'><li>" +
+                      resumeList[0].awards[k].title +
+                      " , " +
+                      resumeList[0].awards[k].date +
+                      " , " +
+                      resumeList[0].awards[k].awarder +
+                      " , " +
+                      resumeList[0].awards[k].summary +
+                      "</li></ul>"
+                      );
+                    }
+                  </script>
+                </div>
+            </div>
+            <div>
+              <h2 class="work-1">Volunteer</h2>
+                <div>
+                  <script>
+                    let volunteerLen = resumeList[0].volunteer.length;
+
+                    let x;
+                    for (x = 0; x < volunteerLen; x++) {
+                    document.write(
+                      "<ul class='work-2'><li>" +
+                      resumeList[0].volunteer[x].position +
+                      " , " +
+                      resumeList[0].volunteer[x].organization +
+                      " , " +
+                      resumeList[0].volunteer[x].durationPeriod +
+                      "</li></ul>"
+                      );
+                    }
+                  </script>
+                </div>
+            </div>
           <div class="name">
             <h2>Full version of Resume is available below:</h2>
             <a class="download" href="./gallery/MK-Hasan's-CV.pdf"
