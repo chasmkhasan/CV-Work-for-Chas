@@ -109,62 +109,37 @@
             </script>
           </div>
           <div>
-            <h2 class="work-1">
-              <script>
-                document.write(resumeList[0].skol);
-              </script>
-            </h2>
-            <h3 class="work-1">
-              <script>
-                document.write(resumeList[0].education[0].area);
-              </script>
-              <a href="https://chasacademy.se/" target="_blank"
-                ><img src="gallery/chas-logo.png" width="30" alt="chas-logo"
-              /></a>
-            </h3>
-            <div class="my-self-1">
-              <script>
-                document.write(
-                  "<p>" + resumeList[0].education[0].courses + "</p>"
-                );
-              </script>
+            <div>
+              <h2 class="work-1">
+                <script>
+                  document.write(resumeList[0].skol);
+                </script>
+              </h2>
             </div>
-            <h3 class="work-1">Kombux - NTI Skolan</h3>
-            <div class="my-self-1">
-              <p>Programming-1 på c#</p>
-            </div>
-            <h3 class="work-1">
-              Svenska som andraspråk - Vux-Hudding, Stockholm
-            </h3>
-            <div class="my-self-1">
-              <p>SFI och Svenska som andraspråk-GRNSVAC</p>
-            </div>
-            <h3 class="work-1">
-              Diploma-Supply Chain Management - IBA Dhaka University
-              <a href="https://www.iba-du.edu/" target="_blank"
-                ><img src="gallery/DU-logo.jpg" width="30" alt="du-logo"
-              /></a>
-            </h3>
-            <div class="my-self-1">
+            <div>
               <script>
-                document.write("<p>" + resumeList[0].diploma + "</p>");
+                let educationLen = resumeList[0].education.length;
+
+                let z;
+                for (z = 0; z < educationLen; z++) {
+                  document.write(
+                    "<ul class='work-2'><li>" +
+                      resumeList[0].education[z].endDate +
+                      " , " +
+                      resumeList[0].education[z].institution +
+                      " , " +
+                      resumeList[0].education[z].area +
+                      " , <br>" +
+                      resumeList[0].education[z].courses +
+                      " , <br>" +
+                      resumeList[0].education[z].url +
+                      "<br>" +
+                      "</li></ul>"
+                  );
+                }
               </script>
             </div>
-            <h3 class="work-1">
-              Master of Business Administration-International Business-HV-Sweden
-              <a href="https://www.hv.se/en/" target="_blank"
-                ><img src="gallery/HV-logo.jpg" width="30" alt="hv-logo"
-              /></a>
-            </h3>
-          </div>
-          <div class="my-self-1">
-            <p>
-              Thesis paper: Working Capital Management: Effect of Cash
-              Conversion Cycle (CCC) on Firm's Profitability (Analysis on top
-              six Global Computer Technology Companies) - Analysis done by
-              "SPSS".
-            </p>
-          </div>
+            
           <h2 class="work-1">Skills</h2>
           <div>
             <script>

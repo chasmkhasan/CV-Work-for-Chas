@@ -270,7 +270,7 @@ ul {
 
 /* Resume-main start */
 .heading {
-    color: red;
+    color: blue;
 }
 .details-cv {
     
@@ -300,10 +300,6 @@ ul {
 .cv-picture {
     width: 40vh;
     border-radius: 100%;
-}
-
-.work-1 {
-    text-align: left;
 }
 
 .my-self-1 {
