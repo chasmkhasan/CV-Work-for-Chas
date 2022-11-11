@@ -297,6 +297,7 @@ ul {
 }
 
 .cv-picture {
+    width: 40vh;
     border-radius: 100%;
 }
 
