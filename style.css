@@ -110,6 +110,7 @@ ul {
 
  main{
     background: whitesmoke;
+    background-image: url(./gallery/pic-1.jpg);
     color: black;
     grid-area: main;
     font-size: 1.5em;
@@ -272,7 +273,7 @@ ul {
     color: red;
 }
 .details-cv {
-    background-color:#717171;
+    
     text-align: center;
     margin: auto;
     padding: 1rem;
