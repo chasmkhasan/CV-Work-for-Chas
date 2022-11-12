@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 :rooot {
     --base-width: 1.8rem;
 }
@@ -353,8 +355,8 @@ ul {
     font-size: 20px;
 }
 
-  
-.element {
+  /* Animation front page diable */
+/* .element {
     height: 250px;
     width: 250px;
     margin: 300px auto;
@@ -364,7 +366,7 @@ ul {
     animation-delay: 0;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-}
+} */
 /* index background work - finished */
  /* Animated menu bar-start */
 .slide {
@@ -477,6 +479,45 @@ ul li a i{
 }
 
 /* Animated Menu Bar-finished */
+
+/* front page work start */
+.detel {
+    margin-left: 8%;
+    margin-top: 18%;
+    margin-right: 5%;
+}
+
+.detel-heading {
+    font-size: 30px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.detel-side {
+    font-family: 'Clicker Script', cursive;
+    color: orange;
+}
+
+.detel-side-1 {
+    color: aqua;
+}
+
+.detel-expl {
+    color: white;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.detel-dow {
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
 
 /* contact with me - start */
 .contact-container{
