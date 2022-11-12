@@ -112,7 +112,7 @@ ul {
 
  main{
     background: whitesmoke;
-    background-image: url(./gallery/pic-1.jpg);
+    background-color: antiquewhite;
     color: black;
     grid-area: main;
     font-size: 1.5em;
