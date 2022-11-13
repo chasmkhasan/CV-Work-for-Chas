@@ -3,6 +3,7 @@ const resumeList = [
     name: "Md. Kamrul Hasan",
     label: "Fullstackutvecklare .NET",
     image: "./gallery/MK-Hasan3.JPG",
+    /* logo: "./gallery/HV-logo.jpg", */
     email: "hasan.ksy@gmail.com",
     phone: "+46(0)0702498464",
     experience: "Work Experience:",
@@ -78,7 +79,7 @@ const resumeList = [
         institution: "Chas Academy",
         url: "https://chasacademy.se",
         area: "Utbilding - Fullstackutvecklare .NET-22",
-        logo: "gallery/chas-logo.png",
+        logo: "./gallery/chas-logo.jpg",
         studyType: "Utbilding",
         startDate: "2022-08-01",
         endDate: "2024-05-20",

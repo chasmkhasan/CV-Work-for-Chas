@@ -304,6 +304,11 @@ ul {
     border-radius: 100%;
 }
 
+.fatlago {
+    width: 10vh;
+    /* border-radius: 100%; */
+}
+
 .my-self-1 {
     text-align: justify;
 }
