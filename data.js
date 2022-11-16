@@ -2,7 +2,7 @@ const resumeList = [
   {
     name: "Md. Kamrul Hasan",
     label: "Fullstackutvecklare .NET",
-    image: "./gallery/MK-Hasan3.jpg",
+    image: "https://github.com/chasmkhasan/CV-Work-for-Chas/blob/main/gallery/MK-Hasan3.JPG",
     /* logo: "./gallery/HV-logo.jpg", */
     email: "hasan.ksy@gmail.com",
     phone: "+46(0)0702498464",
