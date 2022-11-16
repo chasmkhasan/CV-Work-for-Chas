@@ -466,6 +466,7 @@ ul li a i{
     top: 14px;
     width: 25px;
     transform: rotate(-45deg);
+    
 }
 
 .menu-bar:checked ~ .toggle .middle_line {
