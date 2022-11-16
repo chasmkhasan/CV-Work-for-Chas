@@ -431,47 +431,73 @@ footer {
     width: 40px;
     text-align: center;
 }
-
-.container .navbar .slide1 .slide2 .slide3 {
-    font-size: 20px;
-    transform: scale(1);
-    transform-origin: left;
-    transition: 0.3s;
-}
-
-#check:checked~.container .navbar .slide1 .slide2 .slide3 {
-    transform: scale(0);
-}
-
-/* responsive and style */
-
-.hide {
-    -webkit-appearance: none;
+.menu-bar {
     display: none;
     visibility: hidden;
+    /* -webkit-appearance: none; */
 }
 
-.container label #arrow {
+.toggle {
     position: absolute;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    right: -15px;
-    font-size: 25px;
-    background: gray;
-    box-shadow: 0 0 15px rgba(0 0 0 0.7);
-    text-align: center;
-    top: 100px;
+    height: 30px;
+    width: 30px;
+    top: 20px;
+    left: 15px;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.toggle .common{
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    background-color: #8000ff;
     border-radius: 50px;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
-#check:checked~.container label #arrow {
-    transform: rotate(180deg);
+.toggle .top_line {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#check:checked~.container {
-    max-width: 60px;
+.toggle .middle_line {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.toggle .bottom_line {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-bar:checked ~ .toggle .top_line {
+    left: 2px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(45deg);
+}
+
+.menu-bar:checked ~ .toggle .bottom_line {
+    left: 2px;
+    top: 14px;
+    width: 25px;
+    transform: rotate(-45deg);
+}
+
+.menu-bar:checked ~ .toggle .middle_line {
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+.menu-bar:checked ~ .slide {
+    transform: translateX(0);
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 
 /* Animated Menu Bar-finished */
