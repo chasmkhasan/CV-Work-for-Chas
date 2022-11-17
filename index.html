@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon%7Coutline%7Cemboss%7Cshadow-multiple"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia&effect=neon%7Coutline%7Cemboss%7Cshadow-multiple"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Index</title>
   </head>
@@ -13,44 +22,52 @@
     <div class="home1">
       <h1 class="home3">Md Kamrul Hasan Profile</h1>
     </div>
-
-    <label>
-      <input type="checkbox" class="menu-bar" />
-      <sub class="toggle">
-        <span class="top_line common"></span>
-        <span class="middle_line common"></span>
-        <span class="bottom_line common"></span>
-      </sub>
-      <div class="slide">
-        <h1 class="slide1">Menu</h1>
-        <ul class="slide2">
-          <li class="slide3">
-            <a class="slide4" href="./about.html"
-              ><i class="far fa-user"></i>Profiles</a
-            >
-          </li>
-          <li class="slide3">
-            <a class="slide4" href="./resume.html"
-              ><i class="fa-brands fa-accusoft"></i>Resume</a
-            >
-          </li>
-          <!-- <li class="slide3"><a class="slide4" href="./awards.html"><i class="fa-solid fa-award"></i>Awards</a></li> -->
-          <li class="slide3">
-            <a class="slide4" href="./portfolio.html"
-              ><i class="fa-sharp fa-solid fa-address-card"></i>Portfolio</a
-            >
-          </li>
-          <li class="slide3">
-            <a class="slide4" href="./contact.html"
-              ><i class="far fa-comments"></i>Contact Me</a
-            >
-          </li>
-        </ul>
+    <input type="checkbox" id="check" class="hide" />
+    <div class="container">
+      <label for="check">
+        <i class="fas fa-angle-left" id="arrow"></i>
+      </label>
+      <div class="imgbox">
+        <img class="light" src="./gallery/searchlight.jpeg" alt="" />
       </div>
-    </label>
+      <ul class="navbar">
+        <li class="searchbox">
+          <i class="fas fa-search"></i
+          ><input type="text" placeholder="search.." />
+        </li>
+        <li class="slide1">
+          <a class="slide2" href="./about.html"
+            ><i class="far fa-user"></i>
+            <p class="slide3">Profiles</p></a
+          >
+        </li>
+        <li class="slide1">
+          <a class="slide2" href="./resume.html"
+            ><i class="fa-brands fa-accusoft"></i>
+            <p class="slide3">Resume</p></a
+          >
+        </li>
+        <!-- <li class="slide1"><a class="slide2" href="./awards.html"><i class="fa-solid fa-award"></i><p class="slide3">Awards</p></a></li> -->
+        <li class="slide1">
+          <a class="slide2" href="./portfolio.html"
+            ><i class="fa-sharp fa-solid fa-address-card"></i>
+            <p class="slide3">Portfolio</p></a
+          >
+        </li>
+        <li class="slide1">
+          <a class="slide2" href="./contact.html"
+            ><i class="far fa-comments"></i>
+            <p class="slide3">Contact Me</p></a
+          >
+        </li>
+      </ul>
+    </div>
     <div class="detel">
       <h1 class="detel-heading">
-        Hello, My name is <span class="detel-side">Md Kamrul Hasan</span><br/><span class="detel-side-1">And I am a Fullstackutvecklare .Net</span>
+        Hello, My name is <span class="detel-side">Md Kamrul Hasan</span
+        ><br /><span class="detel-side-1"
+          >And I am a Fullstackutvecklare .Net</span
+        >
       </h1>
       <p class="detel-expl">
         I'm a FULLSTACKUTVECKLARE .NET with extensive experience into some
